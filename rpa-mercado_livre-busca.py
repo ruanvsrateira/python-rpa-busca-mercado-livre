@@ -38,5 +38,5 @@ for card in cards:
 
 dados = pd.DataFrame(lista_de_produtos, columns=['title', 'link do produto', 'preço em reais'])
 
-dados.to_json('lista.json', index=False)
+dados.to_excel('lista.xlsx', index=False)
     
